@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 600px;
+  padding-top: 100px;
+  margin: auto;
+}
+.main-app {
+  border: solid 2px green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  padding: 30px;
+  border-radius: 30px;
+}
+p {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.content {
+  margin-top: 30px;
+}
+input {
+  height: 50px;
+  width: 500px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.task {
+  padding-top: 100px;
+}
+.content input {
+  border: none;
+  height: 80px;
+}
+.input-submit {
+  cursor: pointer;
+}
+.input-submit:hover {
+  background-color: green;
+  color: white;
+  transition: 0.3s;
+}
+.action {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.edit {
+  font-size: 25px;
+  padding: 10px;
+  cursor: pointer;
+}
+.delete {
+  font-size: 25px;
+  padding: 10px;
+  cursor: pointer;
+}
